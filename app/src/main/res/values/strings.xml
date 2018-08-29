@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">VCTest</string>
+
+    <!-- Intro page -->
+    <string name="applicant_name">Eoin Conroy</string>
+    <string name="applicant_role">Android Developer</string>
+    <string name="button_start">Press to start</string>
+
+    <!-- Movie list screen -->
+    <string name="rating">Rating: %.1f</string>
+    <string name="popularity">Popularity: %.1f</string>
+    <string name="title_activity_list">Movie List</string>
+    <string name="title_activity_fave_list">Favourite List</string>
+    <string name="title_activity_scrolling">Movie Detail</string>
+    <string name="data_error">Error Retrieving data. Working offline.</string>
+    <string name="server_error">Network error. Working offline.</string>
+
+    <!-- Movie detail screen -->
+    <string name="favourite_add">%s added to favourites</string>
+    <string name="favourite_remove">%s removed from favourites</string>
+    <string name="share_text">Find out about %s at %s</string>
+
+    <!-- Menu -->
+    <string name="action_sort">Sort</string>
+
+    <string name="action_show_movies">Show Movies</string>
+    <string name="action_show_favourites">Show Favourites</string>
+
+    <string name="action_sort_popularity">Popularity</string>
+    <string name="action_sort_rating">Rating</string>
+    <string name="action_sort_revenue">Revenue</string>
+
+</resources>

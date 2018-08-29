@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="test.eoin.com.scrolllayouttest.ScrollingActivity">
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        android:orderInCategory="100"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sortPopularity"
+                android:title="@string/action_sort_popularity" />
+            <item
+                android:id="@+id/sortRating"
+                android:title="@string/action_sort_rating" />
+            <item
+                android:id="@+id/sortRevenue"
+                android:title="@string/action_sort_revenue" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_show_favourites"
+        android:icon="@drawable/ic_action_favorite_on"
+        android:orderInCategory="101"
+        android:title="@string/action_show_favourites"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_show_default"
+        android:icon="@drawable/ic_action_theaters"
+        android:orderInCategory="102"
+        android:title="@string/action_show_movies"
+        app:showAsAction="ifRoom" />
+</menu>
